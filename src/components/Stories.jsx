@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
@@ -6,6 +7,7 @@ import { ClockIcon } from "@heroicons/react/24/outline";
 import Title from "./utils/Title";
 import { truncate } from "lodash";
 
+// eslint-disable-next-line react/prop-types
 const Stories = ({ story: { title, news } }) => {
   const splideOptions = {
     perPage: 4,
